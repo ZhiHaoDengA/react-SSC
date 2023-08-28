@@ -1,6 +1,6 @@
 import {Component} from "react";
 import './index.less'
-export default class Home extends Component{
+export default class NotFound extends Component{
     constructor(props) {
         super(props);
         this.state = {
@@ -11,7 +11,7 @@ export default class Home extends Component{
     render() {
         return(
                 <div>
-                    Home111111111111111111111122
+                    4041111111111
                 </div>
         )
     }

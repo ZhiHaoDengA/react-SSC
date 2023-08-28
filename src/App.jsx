@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import {Button} from 'antd'
 import './App.css'
-import {Home} from '@/pages/Home'
+import { RouterProvider } from "react-router-dom";
+import routes from './routers'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (<Home></Home>
+  console.log(routes)
+  return (
+    <RouterProvider router={routes} />
   )
 }
 
