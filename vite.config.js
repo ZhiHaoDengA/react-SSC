@@ -12,7 +12,7 @@ export default defineConfig({
     })
   ],
   optimizeDeps: {
-    include: ['react-is']
+    include: ['react-is','moment']
   },
   resolve:{
     alias:{

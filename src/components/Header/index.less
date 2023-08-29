@@ -1,0 +1,116 @@
+.css-header-wrap {
+  width: 88vw;
+  height: 50px;
+  background: linear-gradient(270deg, #0840CB 0%, #1078FA 100%);
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  font-size: 16px;
+  font-family: OPPOSans-B, OPPOSans;
+  font-weight: normal;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  justify-content: space-between;
+  .css-message-btn {
+    margin-left: auto;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url("~@/assets/img/main/icon_xiaoxi_nor.png");
+    cursor: pointer;
+    margin-right: 24px;
+  }
+
+  .css-message-btn-active{
+    margin-left: auto;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url("~@/assets/img/main/icon_xiaoxi_sed.png");
+
+    cursor: pointer;
+    margin-right: 24px;
+  }
+
+  .css-time {
+    margin-right: 30px;
+  }
+
+  .css-menu-wrap {
+    display: flex;
+    margin-left: 50px;
+
+    .css-menu-item {
+      height: 32px;
+      line-height: 32px;
+      text-align: center;
+      padding: 0 16px;
+      margin-right: 16px;
+      font-size: 16px;
+      font-family: OPPOSans-B, OPPOSans;
+      font-weight: normal;
+      color: #FFFFFF;
+      cursor: pointer;
+
+      &.active {
+        background: #FFFFFF;
+        border-radius: 16px;
+        border: 2px solid #DBEAFF;
+        color: #0C67E6;
+      }
+    }
+  }
+}
+
+.css-user-drop-down {
+  width: 165px;
+  height: 200px;
+  padding: 0 20px;
+
+  // padding: 16px 20px;
+  .css-img-wrap {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #3C4353;
+    margin-bottom: 10px;
+
+    img {
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
+    }
+  }
+
+  .css-desc-item {
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    margin-bottom: 10px;
+
+    span:nth-child(1) {
+      color: #838A9D;
+      margin-right: 8px;
+    }
+
+    span:nth-child(2) {
+      color: #3C4353;
+    }
+  }
+
+  .css-trigger-wrap {
+    margin: 10px 0;
+    border-top: 1px solid rgba(237, 240, 245, 1);
+    padding-top: 10px;
+
+    .css-trigger-item {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      img {
+        margin-right: 8px;
+      }
+    }
+  }
+}

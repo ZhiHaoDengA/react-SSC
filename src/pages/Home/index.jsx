@@ -1,5 +1,8 @@
 import {Component} from "react";
 import './index.less'
+import Header from "@/components/Header/index.jsx";
+import MenuList from "@/components/MenuList/index.jsx";
+
 export default class Home extends Component{
     constructor(props) {
         super(props);
@@ -10,8 +13,13 @@ export default class Home extends Component{
 
     render() {
         return(
-                <div>
-                    Home111111111111111111111122
+                <div className='css-home'>
+                    <div className="css-left-content">
+                        <MenuList/>
+                    </div>
+                    <div className='css-right-content'>
+                        <Header/>
+                    </div>
                 </div>
         )
     }
