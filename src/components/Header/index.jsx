@@ -31,7 +31,6 @@ class Header extends Component {
                 <span>智安小区管理中心</span>
                 <div className="css-menu-wrap"></div>
                 <span className={'css-time'}>
-
         </span>
                 <Popover
                     placement="bottomLeft"
@@ -78,7 +77,6 @@ class Header extends Component {
                             123
                             {/*{loginInfo?.person.nickname}*/}
                         </span>
-
                         <img
                             className="mgl-8"
                             src={getImgUrl('btn_xiala_sed.png')}

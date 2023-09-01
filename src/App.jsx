@@ -1,6 +1,6 @@
 import './App.css'
 import './style/global.less'
-import { BrowserRouter,Routes , Route , Navigate } from "react-router-dom";
+import {BrowserRouter, Routes, Route, Navigate, RouterProvider, createBrowserRouter} from "react-router-dom";
 import routes from './routers'
 import Home from '@/pages/Home/index'
 import Login from '@/pages/Login'
@@ -12,13 +12,23 @@ function App() {
       <div id='app'>
         <BrowserRouter>
           <Routes>
-            <Route path='/home' element={<Home/>}></Route>
+            <Route path='/' element={<Home/>}>
+                {
+                    routes.map(item=>{
+                        return item.children.map(value=>{
+                            return(
+                                <Route key={value.path} path={value.path} element={value.element}></Route>
+                            )
+                        })
+                    })
+                }
+            </Route>
             <Route path='/login' element={<Login/>}></Route>
-            <Route path="/" element ={<Navigate replace to="/home" />} />
           </Routes>
         </BrowserRouter>
+        {/* <RouterProvider router={createBrowserRouter(routes)} />*/}
+
       </div>
-    // <RouterProvider router={routes} />
 
   )
 }

@@ -1,4 +1,3 @@
-import {createBrowserRouter} from 'react-router-dom'
 import Home from '@/pages/Home';
 import NotFound from '@/pages/NotFound';
 import AddressLink from '@/pages/AddressLink';
@@ -6,7 +5,7 @@ import ControlElement from '@/pages/ControlElement';
 import CreateArea from '@/pages/CreateArea';
 import DepartmentManage from '@/pages/DepartmentManage';
 import DeviceLink from '@/pages/DeviceLink';
-import RoleManage from '@/pages/ThresholdConfig';
+import RoleManage from '@/pages/RoleManage';
 import ThresholdConfig from "@/pages/ThresholdConfig"
 import UserManage from '@/pages/UserManage';
 import {
@@ -19,35 +18,35 @@ import {
   PieChartOutlined,
 } from '@ant-design/icons';
 
-const routes = createBrowserRouter([
+const routes = [
   {
     path: "/smart-safety-area",
     key: "/smart-safety-area",
     label:'智安小区后台配置',
     icon:<PieChartOutlined></PieChartOutlined>,
-    element: '',
+    element: <NotFound/>,
     children: [
       {
-        path: "create",
-        key: "create",
+        path: "/smart-safety-area/create",
+        key: "/smart-safety-area/create",
         label:'小区创建',
         element: <CreateArea />,
       },
       {
-        path: "address-link",
-        key: "address-link",
+        path: "/smart-safety-area/address-link",
+        key: "/smart-safety-area/address-link",
         label:'地址关联',
         element: <AddressLink />,
       },
       {
-        path: "device-link",
-        key: "device-link",
+        path: "/smart-safety-area/device-link",
+        key: "/smart-safety-area/device-link",
         label:'设备关联',
         element: <DeviceLink />,
       },
       {
-        path: "threshold-config",
-        key: "threshold-config",
+        path: "/smart-safety-area/threshold-config",
+        key: "/smart-safety-area/threshold-config",
         label:'阈值设置',
         element: <ThresholdConfig />,
       },
@@ -60,8 +59,8 @@ const routes = createBrowserRouter([
     element:'',
     children:[
       {
-        path:'control-element',
-        key:'control-element',
+        path:'/source-manage/control-element',
+        key:'/source-manage/control-element',
         label:'静态要素上图',
         element:<ControlElement></ControlElement>
       }
@@ -74,25 +73,25 @@ const routes = createBrowserRouter([
     element:'',
     children:[
       {
-        path:'department',
-        key:'department',
+        path:'/user-management/department',
+        key:'/user-management/department',
         label:'部门管理',
         element:<DepartmentManage></DepartmentManage>,
       },
       {
-        path:'role',
-        key:'role',
+        path:'/user-management/role',
+        key:'/user-management/role',
         label:'角色管理',
         element:<RoleManage></RoleManage>,
       },
       {
-        path:'user',
-        key:'user',
+        path:'/user-management/user',
+        key:'/user-management/user',
         label:'用户管理',
         element:<UserManage></UserManage>,
       },
     ]
   }
-]);
+];
 
 export default routes

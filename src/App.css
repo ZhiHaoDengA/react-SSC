@@ -2,3 +2,57 @@
   width: 100%;
   height: 100%;
 }
+.css-search-btn{
+  background: #1182FB!important;
+  border: 1px solid rgba(17,130,251,0.25);
+  margin-right: 16px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: white!important;
+}
+.css-search-btn:hover{
+  background: #149EF7;
+  border-radius: 2px;
+}
+.css-search-btn:active{
+  background: #0C67E6!important;
+}
+.css-reset-btn{
+  background: #F1F1F1;
+  border: 1px solid #DEDEDE;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: #3D4353;
+}
+.css-reset-btn:hover{
+  color: #149EF7;
+  border: 1px solid #149EF7;
+}
+.css-reset-btn:active{
+  color: #1182FB;
+  border: 1px solid #0C67E6;
+}
+.css-cancel-btn{
+  background: #F1F1F1;
+  border-radius: 2px;
+  border: 1px solid #DEDEDE;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: #3D4353;
+}
+.css-cancel-btn:hover{
+  background: #EEF0F6;
+  border: 1px solid #149EF7;
+  color: #149EF7;
+}
+.css-cancel-btn:active{
+  border: 1px solid #0C67E6;
+  color: #3D4353;
+}
+.css-red{
+  color: #FF5D5D;
+}
+
+.css-red:hover{
+  color: #FF5D5D;
+}

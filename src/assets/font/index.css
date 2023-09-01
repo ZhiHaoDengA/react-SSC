@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "OPPOSans";
+    src: url('./OPPOSans-B.ttf');
+  }
+@font-face {
+  font-family:'OPPOSans-M' ;
+  src: url('./OPPOSans-M.ttf');
+}
+@font-face {
+  font-family:'OPPOSans-R' ;
+  src: url('./OPPOSans-R.ttf');
+}
+@font-face {
+  font-family:'OPPOSans-H' ;
+  src: url('./OPPOSans-H.ttf');
+}
+@font-face {
+  font-family:'OPPOSans-L' ;
+  src: url('./OPPOSans-L.ttf');
+}
+@font-face {
+  font-family:'SourceHanSansCN-Bold' ;
+  src: url('./SourceHanSansCN-Bold.otf');
+}
+@font-face {
+  font-family:'SourceHanSansCN-Normal' ;
+  src: url('./SourceHanSansCN-Normal.otf');
+}
+@font-face {
+  font-family:'Nuan_Zhongheiti' ;
+  src: url('./【暖色君】中黑体.ttf');
+}
+@font-face {
+  font-family:'Pengmen_2.0_Zengqian' ;
+  src: url('./庞门正道标题体2.0增强版.ttf');
+}
+@font-face {
+  font-family:'PingFangSC-Regular' ;
+  src: url('./PingFangSC-Regular.ttf');
+}
+@font-face {
+  font-family:'PingFangSC-Semibold' ;
+  src: url('./PingFangSC-Semibold.ttf');
+}
+@font-face {
+  font-family:'PingFangSC-Medium' ;
+  src: url('./PingFangSC-Medium.ttf');
+}
+@font-face {
+  font-family:'DINAlternate-Bold' ;
+  src: url('./DINAlternateBold.ttf');
+}
+@font-face {
+  font-family:'DS-DIGIT' ;
+  src: url('./DS-DIGIT.TTF');
+}
+@font-face {
+  font-family:'DIN-Medium' ;
+  src: url('./DIN-Medium.otf');
+}
+@font-face {
+  font-family:'Helvetica' ;
+  src: url('./Helvetica.ttf');
+}
+@font-face {
+  font-family:'DIN-Black' ;
+  src: url('./DIN-Black.otf');
+}
+@font-face {
+  font-family:'DIN-Bold' ;
+  src: url('./DIN-Bold.otf');
+}
+@font-face {
+  font-family:'DIN-Light' ;
+  src: url('./DIN-Light.otf');
+}
+@font-face {
+  font-family:'DIN-Regular' ;
+  src: url('./DIN-Regular.otf');
+}
+@font-face {
+  font-family:'MicrosoftYaHei' ;
+  src: url('./MicrosoftYaHei.ttc');
+}
+@font-face {
+  font-family:'MicrosoftYaHei-Bold' ;
+  src: url('./MicrosoftYaHei-Bold.ttc');
+}
+@font-face {
+  font-family:'YouSheBiaoTiHei' ;
+  src: url('./YouSheBiaoTiHei.ttf');
+}
